@@ -19,7 +19,7 @@ public class FifthProgram {
 				String sql ="update batches set name=? where id=?";
 				st=con.prepareStatement(sql);
 				System.out.println("statement prepared");
-				System.out.println("enter name ,id");
+				// System.out.println("enter name ,id");
 				System.out.println("eneter id ");
 				int id=sc.nextInt();
 				System.out.println("Enter name to upadate");
